@@ -1,0 +1,29 @@
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #e0e0eb;
+  overflow: auto;
+}
+body {
+  background-color: #33334d;
+}
+.clearfix {
+  overflow: auto;
+}
+* {
+  box-sizing: border-box;
+}
+@media (min-width: 500px) {
+.column-one {
+  float: left;
+  width: 67%;
+}
+.column-two {
+  float: right;
+  width: 33%;
+}
+.image {
+  float: left;
+  width: 67%;
+}
+}
